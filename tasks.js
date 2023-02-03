@@ -1,7 +1,7 @@
 // Assignment (Mathematical Shapes)
 // 2a
 
-let sides = 9
+const sides = 9
 const diagonal = Math.sqrt(sides ** 2 + sides ** 2)
 
 console.log(diagonal)
@@ -20,9 +20,9 @@ console.log(area)
 
 // 2c
 
-let radius = 4
-let circumference = 2 * Math.PI * radius
-let surfaceArea = Math.PI * (radius ** 2)
+const radius = 4
+const circumference = 2 * Math.PI * radius
+const surfaceArea = Math.PI * (radius ** 2)
 
 console.log(circumference)
 console.log(surfaceArea)
